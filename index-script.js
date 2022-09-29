@@ -22,7 +22,7 @@ function showProduct(product) {
   clone.querySelector("a.buy-now-but").href = `product.html?id=${product.id}`;
   clone.querySelector(
     "img.bestsellers-product-image"
-  ).src = `https://kea-alt-del.dk/t7/images/webp/1000/${product.id}.webp`;
+  ).src = `website.dk/${product.id}.webp`;
   //Selection where i want the clone
   const parent = document.querySelector(".bestsellers-grid");
   //Appending it
